@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* Font colors*/
+  --fc--app: #E1E1E6;
+  --fc--nav: #C4C4CC;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+root {
+  font-size: 62.5%;
+  
+}
+
+body {
+  
+  height: 100vh;
+
+  padding: 4rem 7.2rem;
+  
+  background-image: url(./assets/bg-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+
+
+nav {
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem
+}
+
+nav a {
+ color: var(--fc--nav);
+ text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--fc--app);
+}
+
+.app {
+  
+
+
+  height: 100%;
+  
+  display: grid;
+  
+  align-content: center;
+  justify-content: center;
+  
+  
+  gap: 2.4rem;
+}
+
+.app h1 {
+  color: var(--fc--app);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.app button {
+
+
+justify-self: center;
+
+color: #FFFFFF;
+background-color: transparent;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+padding: 12px 32px;
+gap: 8px;
+
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+}
+
+.app button:hover {
+  color: #02799D;
+  background-color: #FFFFFF;
+}
+
+.app p {
+  width: 648px;
+  height: 174px;
+display: grid;
+align-content: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+
+color: #E1E1E6;
+
+}
